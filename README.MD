@@ -11,6 +11,8 @@ Output: an integer, sum of the numbers
 > Input: “”, Output: 0
 > Input: “1”, Output: 1
 
+
+
 ## Project Architecture:
 This project has two python modules to modularized the entire solution.
 * calculate.py --> It's holding "addition" method which is calculating the actual output.
@@ -27,7 +29,10 @@ This project has two python modules to modularized the entire solution.
 3. input("*jauyw#$") output(0)
 4. input("1") output(1)
 5. input("1,2") output(3)
-
+6. input("2,2,0") output(4)
+7. input("2,2,3") output(7)
+8. input("2,1,5,7") output(15)
+9. input("8,2,1") output(11)
 
 ## Execution Steps:
 Create a local project with "ProjectAssessment" and clone or download this project from the below url.
