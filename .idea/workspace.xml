@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5813dada-fd61-4f32-852c-e88157742a83" name="Changes" comment="Added Test Cases :&#10;3. input(&quot;*jauyw#$&quot;) output(0)&#10;5. input(&quot;2,2&quot;) output(4)&#10;&#10;If we pass ,&#10;input(&quot;1,2&quot;) output(1) then it will through the below error ,&#10;&#10;    self.assertEqual(calculate.addition(&quot;1,2&quot;), 1)&#10;AssertionError: 3 != 1&#10;Hence, output should be proper in the test result.">
+    <list default="true" id="5813dada-fd61-4f32-852c-e88157742a83" name="Changes" comment="Added Test Cases :&#10;6. input(&quot;2,2,0&quot;) output(4)&#10;7. input(&quot;2,2,3&quot;) output(7)&#10;8. input(&quot;2,1,5,7&quot;) output(15)&#10;9. input(&quot;8,2,1&quot;) output(11)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculate.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,13 +119,22 @@
       <option name="project" value="LOCAL" />
       <updated>1726055737185</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Test Cases :&#10;6. input(&quot;2,2,0&quot;) output(4)&#10;7. input(&quot;2,2,3&quot;) output(7)&#10;8. input(&quot;2,1,5,7&quot;) output(15)&#10;9. input(&quot;8,2,1&quot;) output(11)">
+      <option name="closed" value="true" />
+      <created>1726056289821</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726056289821</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="This is the initial commit of this project with the below notes,&#10;1. Implemented solution 1 using TTD.Test case executed successfully without any exception.&#10;2. Added README.MD file with Project Objective and problem statement details.&#10;3. Two python module added as a part of 1st commit." />
     <MESSAGE value="README.MD Changes with valuable artifacts as mentioned below.&#10;1. Project Architecture &#10;2. Execution Steps.&#10;3. Commit Information.&#10;4. Fixed empty string with string value issue like &#10;input(&quot;abcd&quot;) output: 0&#10;input(&quot;1&quot;) output:1" />
     <MESSAGE value="Added Test Cases :&#10;3. input(&quot;*jauyw#$&quot;) output(0)&#10;5. input(&quot;2,2&quot;) output(4)&#10;&#10;If we pass ,&#10;input(&quot;1,2&quot;) output(1) then it will through the below error ,&#10;&#10;    self.assertEqual(calculate.addition(&quot;1,2&quot;), 1)&#10;AssertionError: 3 != 1&#10;Hence, output should be proper in the test result." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Test Cases :&#10;3. input(&quot;*jauyw#$&quot;) output(0)&#10;5. input(&quot;2,2&quot;) output(4)&#10;&#10;If we pass ,&#10;input(&quot;1,2&quot;) output(1) then it will through the below error ,&#10;&#10;    self.assertEqual(calculate.addition(&quot;1,2&quot;), 1)&#10;AssertionError: 3 != 1&#10;Hence, output should be proper in the test result." />
+    <MESSAGE value="Added Test Cases :&#10;6. input(&quot;2,2,0&quot;) output(4)&#10;7. input(&quot;2,2,3&quot;) output(7)&#10;8. input(&quot;2,1,5,7&quot;) output(15)&#10;9. input(&quot;8,2,1&quot;) output(11)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Test Cases :&#10;6. input(&quot;2,2,0&quot;) output(4)&#10;7. input(&quot;2,2,3&quot;) output(7)&#10;8. input(&quot;2,1,5,7&quot;) output(15)&#10;9. input(&quot;8,2,1&quot;) output(11)" />
   </component>
 </project>

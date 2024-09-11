@@ -2,14 +2,17 @@
 The objective of this project is to perform String Calculation using TTD implementation. 
 ## Problem Statements:
 1. Create a simple String calculator with a method signature like this:
-
 >> def add(random_string)
 
 Input: a string of comma-separated numbers
 
-Output: an integer, sum of the numbers
+Output: an integer, sum of the numbers , 
+
+Please refer the below two examples, for more cases kindly review "Test Cases & Results" section below.
 > Input: “”, Output: 0
+> 
 > Input: “1”, Output: 1
+2. Allow the add method to handle any amount of numbers.
 
 
 
