@@ -17,7 +17,9 @@ Please refer the below two examples, for more cases kindly review "Test Cases & 
 4. Support different delimiters:
 
 To change the delimiter, the beginning of the string will contain a separate line that looks like this: "//[delimiter]\n[numbers…]". For example, "//;\n1;2" where the delimiter is ";" should return 3.
+5. Calling add with a negative number will throw an exception: "negative numbers not allowed <negative_number>".
 
+If there are multiple negative numbers, show all of them in the exception message, separated by commas.
 
 
 ## Project Architecture:
@@ -45,6 +47,9 @@ This project has two python modules to modularized the entire solution.
 12. input("8,2\n2") output(12)
 13. input("//;\n1;2") output(3)
 14. input("//@\n\t11#@11@1") output(23)
+15. input("1,-2,3") output(negative numbers not allowed -2)
+16. input("1,-2,-3") output(negative numbers not allowed -2, -3)
+17. input("//@\n\t11#@11@-1") output(negative numbers not allowed -1)
 
 
 ## Execution Steps:
@@ -64,3 +69,6 @@ Navigate to project directory and run the below command to execute the testcases
 
 ## Commit Information:
 https://github.com/sumantas98/IncubyteProjectAssessment/commits?author=sumantas98&since=2024-08-31&until=
+
+#### Important Notes: 
+requirements.txt has not been used till now in this project, However,if any further requirements added in the future , we can reuse the file accordingly. Keeping the file as it is in the repo.

@@ -23,6 +23,18 @@ class TestCalculatorNumbers(unittest.TestCase):
     def test_support_different_delimiters(self):
         self.assertEqual(calculate.addition("//;\n1;2"), 3)
         self.assertEqual(calculate.addition("//@\n\t11#@11@1"), 23)
+    def test_negative_number(self):
+            # Single negative value with , separated
+            with self.assertRaises(ValueError) as context:
+                calculate.addition("1,-2,3")
+                self.assertEqual(str(context.exception), "negative numbers not allowed -2")
+            # Multiple negative value with , separated
+            with self.assertRaises(ValueError) as context:
+                calculate.addition("1,-2,-3")
+                self.assertEqual(str(context.exception), "negative numbers not allowed -2, -3")
+            with self.assertRaises(ValueError) as context:
+                calculate.addition("//@\n\t11#@11@-1")
+                self.assertEqual(str(context.exception), "negative numbers not allowed -1")
 
 
 
