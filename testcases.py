@@ -16,6 +16,10 @@ class TestCalculatorNumbers(unittest.TestCase):
         self.assertEqual(calculate.addition("2,2,3"), 7)
         self.assertEqual(calculate.addition("2,1,5,7"), 15)
         self.assertEqual(calculate.addition("8,2,1"), 11)
+    def test_comm_and_newline(self):
+        self.assertEqual(calculate.addition("1\n2,3"), 6)
+        self.assertEqual(calculate.addition("8\n2,1"), 11)
+        self.assertEqual(calculate.addition("8,2\n2"), 12)
 
 
 

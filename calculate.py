@@ -10,7 +10,9 @@ def addition(random_string):
     '''
 
     # This Function will handle multiple "," separated numbers like "1,2,3" out put should be 6.
-    list_num = random_string.split(",")
+    # Before split it will replace all the \n value with comma then it can use the same function with any further modification.
+    random_string = random_string.replace('\n',',')
+    list_num = random_string.split(',')
     return sum(int(num) for num in list_num)
 
 
