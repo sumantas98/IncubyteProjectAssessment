@@ -24,7 +24,11 @@ This project has two python modules to modularized the entire solution.
 ## Test Cases & Results:
 1. input("") output(0)
 2. input("abcd") output(0)
-3. input("1") output(1)
+3. input("*jauyw#$") output(0)
+4. input("1") output(1)
+5. input("1,2") output(3)
+
+
 ## Execution Steps:
 Create a local project with "ProjectAssessment" and clone or download this project from the below url.
 >> https://github.com/sumantas98/MiniProjectFASTAPI.git
