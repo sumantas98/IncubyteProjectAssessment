@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5813dada-fd61-4f32-852c-e88157742a83" name="Changes" comment="Appended Notes in README as well for below test case,&#10;&#10;Support different delimiters:&#10;&#10;To change the delimiter, the beginning of the string will contain a separate line that looks like this: &quot;//[delimiter]\n[numbers…]&quot;. For example, &quot;//;\n1;2&quot; where the delimiter is &quot;;&quot; should return 3.&#10;&#10;Added Test Cases :&#10;input(&quot;//;\n1;2&quot;) output(3)&#10;input(&quot;//@\n\t11#@11@1&quot;) output(23)">
+    <list default="true" id="5813dada-fd61-4f32-852c-e88157742a83" name="Changes" comment="Final Notes in README as well for below test case,&#10;&#10;Support different delimiters:&#10;&#10;Calling add with a negative number will throw an exception: &quot;negative numbers not allowed &lt;negative_number&gt;&quot;.&#10;&#10;If there are multiple negative numbers, show all of them in the exception message, separated by commas.&#10;&#10;Added Test Cases :&#10;15. input(&quot;1,-2,3&quot;) output(negative numbers not allowed -2)&#10;16. input(&quot;1,-2,-3&quot;) output(negative numbers not allowed -2, -3)&#10;17. input(&quot;//@\n\t11#@11@-1&quot;) output(negative numbers not allowed -1).&#10;&#10;Thank you. All the testcases has been covered as per the requirements.&#10;&#10;Notes: requirements.txt has not been used till now in this project, However,if any further requirements added in the future , we can reuse the file accordingly. Keeping the file as it is in the repo.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculate.py" beforeDir="false" afterPath="$PROJECT_DIR$/calculate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726061041996</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Final Notes in README as well for below test case,&#10;&#10;Support different delimiters:&#10;&#10;Calling add with a negative number will throw an exception: &quot;negative numbers not allowed &lt;negative_number&gt;&quot;.&#10;&#10;If there are multiple negative numbers, show all of them in the exception message, separated by commas.&#10;&#10;Added Test Cases :&#10;15. input(&quot;1,-2,3&quot;) output(negative numbers not allowed -2)&#10;16. input(&quot;1,-2,-3&quot;) output(negative numbers not allowed -2, -3)&#10;17. input(&quot;//@\n\t11#@11@-1&quot;) output(negative numbers not allowed -1).&#10;&#10;Thank you. All the testcases has been covered as per the requirements.&#10;&#10;Notes: requirements.txt has not been used till now in this project, However,if any further requirements added in the future , we can reuse the file accordingly. Keeping the file as it is in the repo.">
+      <option name="closed" value="true" />
+      <created>1726066526789</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726066526789</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -173,6 +178,7 @@
     <MESSAGE value="Added Test Cases :&#10;In the previous commit , it's already been implemented where it can take any number of numbers with comma separated numbers and provide the output accordingly." />
     <MESSAGE value="Added Notes in README as well for below test case,&#10;&#10;Allow the add method to handle new lines between numbers (instead of commas). (&quot;1\n2,3&quot; should return 6)&#10;&#10;Added Test Cases :&#10;10. input(&quot;1\n2,3&quot;) output(6)&#10;11. input(&quot;8\n2,1&quot;) output(11)&#10;12. input(&quot;8,2\n2&quot;) output(12)&#10;&#10;Implemented the logic with a single line change in &quot;calculate.py&quot; to reuse the same method as of now." />
     <MESSAGE value="Appended Notes in README as well for below test case,&#10;&#10;Support different delimiters:&#10;&#10;To change the delimiter, the beginning of the string will contain a separate line that looks like this: &quot;//[delimiter]\n[numbers…]&quot;. For example, &quot;//;\n1;2&quot; where the delimiter is &quot;;&quot; should return 3.&#10;&#10;Added Test Cases :&#10;input(&quot;//;\n1;2&quot;) output(3)&#10;input(&quot;//@\n\t11#@11@1&quot;) output(23)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Appended Notes in README as well for below test case,&#10;&#10;Support different delimiters:&#10;&#10;To change the delimiter, the beginning of the string will contain a separate line that looks like this: &quot;//[delimiter]\n[numbers…]&quot;. For example, &quot;//;\n1;2&quot; where the delimiter is &quot;;&quot; should return 3.&#10;&#10;Added Test Cases :&#10;input(&quot;//;\n1;2&quot;) output(3)&#10;input(&quot;//@\n\t11#@11@1&quot;) output(23)" />
+    <MESSAGE value="Final Notes in README as well for below test case,&#10;&#10;Support different delimiters:&#10;&#10;Calling add with a negative number will throw an exception: &quot;negative numbers not allowed &lt;negative_number&gt;&quot;.&#10;&#10;If there are multiple negative numbers, show all of them in the exception message, separated by commas.&#10;&#10;Added Test Cases :&#10;15. input(&quot;1,-2,3&quot;) output(negative numbers not allowed -2)&#10;16. input(&quot;1,-2,-3&quot;) output(negative numbers not allowed -2, -3)&#10;17. input(&quot;//@\n\t11#@11@-1&quot;) output(negative numbers not allowed -1).&#10;&#10;Thank you. All the testcases has been covered as per the requirements.&#10;&#10;Notes: requirements.txt has not been used till now in this project, However,if any further requirements added in the future , we can reuse the file accordingly. Keeping the file as it is in the repo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Notes in README as well for below test case,&#10;&#10;Support different delimiters:&#10;&#10;Calling add with a negative number will throw an exception: &quot;negative numbers not allowed &lt;negative_number&gt;&quot;.&#10;&#10;If there are multiple negative numbers, show all of them in the exception message, separated by commas.&#10;&#10;Added Test Cases :&#10;15. input(&quot;1,-2,3&quot;) output(negative numbers not allowed -2)&#10;16. input(&quot;1,-2,-3&quot;) output(negative numbers not allowed -2, -3)&#10;17. input(&quot;//@\n\t11#@11@-1&quot;) output(negative numbers not allowed -1).&#10;&#10;Thank you. All the testcases has been covered as per the requirements.&#10;&#10;Notes: requirements.txt has not been used till now in this project, However,if any further requirements added in the future , we can reuse the file accordingly. Keeping the file as it is in the repo." />
   </component>
 </project>
