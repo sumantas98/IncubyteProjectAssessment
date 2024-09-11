@@ -20,6 +20,9 @@ class TestCalculatorNumbers(unittest.TestCase):
         self.assertEqual(calculate.addition("1\n2,3"), 6)
         self.assertEqual(calculate.addition("8\n2,1"), 11)
         self.assertEqual(calculate.addition("8,2\n2"), 12)
+    def test_support_different_delimiters(self):
+        self.assertEqual(calculate.addition("//;\n1;2"), 3)
+        self.assertEqual(calculate.addition("//@\n\t11#@11@1"), 23)
 
 
 

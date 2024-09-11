@@ -13,7 +13,10 @@ Please refer the below two examples, for more cases kindly review "Test Cases & 
 > 
 > Input: “1”, Output: 1
 2. Allow the add method to handle any amount of numbers.
-3. Allow the add method to handle new lines between numbers (instead of commas). ("1\n2,3" should return 6)
+3. Allow the add method to handle new lines between numbers (instead of commas). ("1\n2,3" should return 6).
+4. Support different delimiters:
+
+To change the delimiter, the beginning of the string will contain a separate line that looks like this: "//[delimiter]\n[numbers…]". For example, "//;\n1;2" where the delimiter is ";" should return 3.
 
 
 
@@ -40,6 +43,8 @@ This project has two python modules to modularized the entire solution.
 10. input("1\n2,3") output(6)
 11. input("8\n2,1") output(11)
 12. input("8,2\n2") output(12)
+13. input("//;\n1;2") output(3)
+14. input("//@\n\t11#@11@1") output(23)
 
 
 ## Execution Steps:
